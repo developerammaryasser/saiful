@@ -65,11 +65,11 @@ const Home = () => {
     [
       {
         text: "Download CV",
-        to: "/",
+        to: "https://www.linkedin.com/in/frontend-ammar-yasser",
       },
       {
         text: <IoLogoGithub size={30} />,
-        to: "/",
+        to: "https://github.com/developerammaryasser",
       },
       {
         text: <IoLogoTwitter size={30} />,
@@ -81,7 +81,7 @@ const Home = () => {
       },
       {
         text: <IoLogoLinkedin size={30} />,
-        to: "/",
+        to: "https://www.linkedin.com/in/frontend-ammar-yasser",
       },
     ],
     [
