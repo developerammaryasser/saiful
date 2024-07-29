@@ -1,0 +1,48 @@
+/* Sora Font */
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "Sora", system-ui, sans-serif;
+  }
+}
+
+@layer components {
+  /* Global styles */
+  h1 {
+    @apply text-2xl;
+  }
+  h2 {
+    @apply text-2xl;
+  }
+  h3 {
+    @apply text-xl;
+  }
+  h4 {
+    @apply text-lg;
+  }
+  .gradientText {
+    @apply text-transparent bg-clip-text bg-gradient-to-r from-textColor2 to-textColor1;
+  }
+  p {
+    @apply text-lg font-light leading-8 opacity-75;
+  }
+  .BgGradient {
+    @apply bg-gradient-to-r from-violetColor;
+  }
+  .BgGradient2 {
+    @apply bg-gradient-to-r from-violetColor to-violet-950;
+  }
+  .swiper-pagination span.swiper-pagination-bullet-active {
+    @apply !bg-violetColor;
+  }
+  input,
+  textarea,
+  select {
+    @apply bg-secondaryColor rounded-md px-6 py-3 w-full;
+  }
+}
